@@ -1,0 +1,68 @@
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.form-and-image-container {
+  display: flex;
+  align-items: flex-start; /* Öğeleri yukarı hizalar */
+}
+
+.form-container {
+  margin-top: 20px;
+  width: 400px;
+  margin-left: 170px;
+  padding: 40px;
+  border: 10px solid #FF8AAE;
+  background-color: #FFCCE1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.message-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input-feedback {
+  color: red;
+}
+
+button[type='submit'] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+button[type='submit']:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.letter-image {
+  margin-top: -300px;
+  cursor: pointer;
+  width: 100%; 
+  max-width: 700px; 
+  height: auto; 
+  z-index: -5;
+}
